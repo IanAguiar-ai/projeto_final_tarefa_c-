@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Aula_2/1.0.0": {
+        "dependencies": {
+          "Doxygen": "1.8.14"
+        },
+        "runtime": {
+          "Aula_2.dll": {}
+        }
+      },
+      "Doxygen/1.8.14": {}
+    }
+  },
+  "libraries": {
+    "Aula_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Doxygen/1.8.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2a9Cx5QwwZC3D5tFvRQdSNdjVSIA7INtnHbxq9ogkrbkTBI5XZiS0oI5cln6aNL3M1YuVbGZL2YHIMThbVJRwQ==",
+      "path": "doxygen/1.8.14",
+      "hashPath": "doxygen.1.8.14.nupkg.sha512"
+    }
+  }
+}

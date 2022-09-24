@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\bin\Debug\net6.0\Projeto_Final.exe
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\bin\Debug\net6.0\Projeto_Final.deps.json
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\bin\Debug\net6.0\Projeto_Final.runtimeconfig.json
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\bin\Debug\net6.0\Projeto_Final.dll
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\bin\Debug\net6.0\Projeto_Final.pdb
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.dll
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\refint\Projeto_Final.dll
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.pdb
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\Projeto_Final.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Projeto_C\Projeto_Final\obj\Debug\net6.0\ref\Projeto_Final.dll

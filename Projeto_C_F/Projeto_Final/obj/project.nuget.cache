@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g9OMPQWz+tEqfeYXNVKy/Q6MvRZPJSmdO6d1fDedDW5gSv7psJEvfu/Hd4vR5GELrA6QFQiVz316OdBD1im9Ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Projeto_C\\Projeto_Final\\Projeto_Final.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\doxygen\\1.8.14\\doxygen.1.8.14.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,62 @@
+\hypertarget{class_map}{}\doxysection{Map Class Reference}
+\label{class_map}\index{Map@{Map}}
+
+
+A classe \mbox{\hyperlink{class_map}{Map}} cuida de armazenar todos os objetos no mapa, além disso elE é responsável pelas imagens geradas do jogo (frame).   
+
+
+Inheritance diagram for Map\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_map}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_map_ad32859b0a4eba6661d8720f48528398d}{frame}} (\mbox{\hyperlink{class_robots}{Robots}} OBJ1, int energia)
+\begin{DoxyCompactList}\small\item\em Printa o jogo, usa a posição do jogador e cuida de adicionar os icones os \char`\"{}-\/-\/\char`\"{} nos espaços vazios.  \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a66d1d4942987444c02a6192f776748a0}{proxima\+\_\+fase}} (\mbox{\hyperlink{class_robots}{Robots}} OBJ1)
+\begin{DoxyCompactList}\small\item\em A função \char`\"{}proxima\+\_\+fase\char`\"{} basicamente cuida do processo de geração de novos mapas, esses mapas tem sempre tamanhos difetentes e neles são adicionados os obstaculos e as joias, quanto maior o nível da fase, mais objetos ele adiciona.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A classe \mbox{\hyperlink{class_map}{Map}} cuida de armazenar todos os objetos no mapa, além disso elE é responsável pelas imagens geradas do jogo (frame).  
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_map_ad32859b0a4eba6661d8720f48528398d}\label{class_map_ad32859b0a4eba6661d8720f48528398d}} 
+\index{Map@{Map}!frame@{frame}}
+\index{frame@{frame}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{frame()}{frame()}}
+{\footnotesize\ttfamily void Map.\+frame (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robots}{Robots}}}]{OBJ1,  }\item[{int}]{energia }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Printa o jogo, usa a posição do jogador e cuida de adicionar os icones os \char`\"{}-\/-\/\char`\"{} nos espaços vazios.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em OBJ1} & O \char`\"{}\+OBJ1\char`\"{} é uma instancia de \mbox{\hyperlink{class_robots}{Robots}}, é basicamente o jogador, precisamos dele para conferir onde o jogador está no mapa e se ao lado de sua posição existe algum objeto.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a66d1d4942987444c02a6192f776748a0}\label{class_map_a66d1d4942987444c02a6192f776748a0}} 
+\index{Map@{Map}!proxima\_fase@{proxima\_fase}}
+\index{proxima\_fase@{proxima\_fase}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{proxima\_fase()}{proxima\_fase()}}
+{\footnotesize\ttfamily void Map.\+proxima\+\_\+fase (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robots}{Robots}}}]{OBJ1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A função \char`\"{}proxima\+\_\+fase\char`\"{} basicamente cuida do processo de geração de novos mapas, esses mapas tem sempre tamanhos difetentes e neles são adicionados os obstaculos e as joias, quanto maior o nível da fase, mais objetos ele adiciona.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em OBJ1} & O \char`\"{}\+OBJ1\char`\"{} é uma instancia da classe \mbox{\hyperlink{class_robots}{Robots}}, em outras palavras é o jogados, ele entra nessa função para que a geração de objetos não sobreponha ele no mapa.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Map.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,117 @@
+\hypertarget{class_robots}{}\doxysection{Robots Class Reference}
+\label{class_robots}\index{Robots@{Robots}}
+
+
+É a classe que cuida do personagem, ou seja, sua posição, quantidades de joias, obtenção de joias e etc.   
+
+
+Inheritance diagram for Robots\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_robots}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_robots_aecbab19df4f058288fbbb0d1824ee8bd}\label{class_robots_aecbab19df4f058288fbbb0d1824ee8bd}} 
+int {\bfseries walk} (string tecla, \mbox{\hyperlink{class_map}{Map}} OBJ1)
+\item 
+\mbox{\Hypertarget{class_robots_ab97cf510605bc39cc50d4ddce584cb72}\label{class_robots_ab97cf510605bc39cc50d4ddce584cb72}} 
+int {\bfseries recarrega\+\_\+energia} (\mbox{\hyperlink{class_map}{Map}} OBJ1)
+\item 
+void \mbox{\hyperlink{class_robots_a00226e619cdd1a134d3009a22345a327}{add\+\_\+id\+\_\+map}} (Random id)
+\begin{DoxyCompactList}\small\item\em Essa função serve para criar uma indentificação a joia e adicionala em uma lista.  \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robots_aed3c62ed7944035db834c1d3aa750129}{tirar\+\_\+joia}} (Random id)
+\begin{DoxyCompactList}\small\item\em Essa função serve para tirar da lista a indentificação de uma joia.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_robots_ad7e771524334cd200ea10ae0bd6482dd}\label{class_robots_ad7e771524334cd200ea10ae0bd6482dd}} 
+int\mbox{[}$\,$\mbox{]} {\bfseries pos} = new int\mbox{[}2\mbox{]} \{0, 0\}
+\item 
+\mbox{\Hypertarget{class_robots_adddd85f0eaf577ede6476ebd32f47b99}\label{class_robots_adddd85f0eaf577ede6476ebd32f47b99}} 
+int {\bfseries bag} = 0
+\item 
+\mbox{\Hypertarget{class_robots_a61adfe9274190269d40fe8e78ac96452}\label{class_robots_a61adfe9274190269d40fe8e78ac96452}} 
+int {\bfseries bag\+\_\+total} = 0
+\item 
+\mbox{\hyperlink{class_robots_aad23e18ec8da787052c1486dc7bd4656}{bool}}
+\begin{DoxyCompactList}\small\item\em É uma função que permite o jogador andar. Confere também se há colisões.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+É a classe que cuida do personagem, ou seja, sua posição, quantidades de joias, obtenção de joias e etc.  
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_robots_a00226e619cdd1a134d3009a22345a327}\label{class_robots_a00226e619cdd1a134d3009a22345a327}} 
+\index{Robots@{Robots}!add\_id\_map@{add\_id\_map}}
+\index{add\_id\_map@{add\_id\_map}!Robots@{Robots}}
+\doxysubsubsection{\texorpdfstring{add\_id\_map()}{add\_id\_map()}}
+{\footnotesize\ttfamily void Robots.\+add\+\_\+id\+\_\+map (\begin{DoxyParamCaption}\item[{Random}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Essa função serve para criar uma indentificação a joia e adicionala em uma lista.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & O \char`\"{}id\char`\"{} é a indentificação da joia, quando o personagem peagr um joia ela será indentificada pelo seu \char`\"{}id\char`\"{}.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_robots_aed3c62ed7944035db834c1d3aa750129}\label{class_robots_aed3c62ed7944035db834c1d3aa750129}} 
+\index{Robots@{Robots}!tirar\_joia@{tirar\_joia}}
+\index{tirar\_joia@{tirar\_joia}!Robots@{Robots}}
+\doxysubsubsection{\texorpdfstring{tirar\_joia()}{tirar\_joia()}}
+{\footnotesize\ttfamily void Robots.\+tirar\+\_\+joia (\begin{DoxyParamCaption}\item[{Random}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Essa função serve para tirar da lista a indentificação de uma joia.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & O \char`\"{}id\char`\"{} é a indentificação da joia.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_robots_aad23e18ec8da787052c1486dc7bd4656}\label{class_robots_aad23e18ec8da787052c1486dc7bd4656}} 
+\index{Robots@{Robots}!bool@{bool}}
+\index{bool@{bool}!Robots@{Robots}}
+\doxysubsubsection{\texorpdfstring{bool}{bool}}
+{\footnotesize\ttfamily Robots.\+bool}
+
+
+
+É uma função que permite o jogador andar. Confere também se há colisões.  
+
+É uma função que cuida das joias que podem ser obtidas pelo personagem, além disso a função cuida da obtenção de energia por meio das árvores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tecla} & É a tecla recebida.\\
+\hline
+{\em OBJ1} & É o mapa em que o personagem está.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna um boleano que indica se o jogo acabou e a quantidade de energia restante do personagem.
+\end{DoxyReturn}
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em OBJ1} & É o mapa em que o personagem está. Precisamos conferir se existe algo em volta da posição do \char`\"{}\+Robots\char`\"{}(personagem).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna um boleano que indica se o jogo acabou e a quantidade de energia restante do personagem.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Robots.\+cs\end{DoxyCompactItemize}

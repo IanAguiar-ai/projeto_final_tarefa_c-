@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Doxygen/1.8.14": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Doxygen/1.8.14": {
+      "sha512": "2a9Cx5QwwZC3D5tFvRQdSNdjVSIA7INtnHbxq9ogkrbkTBI5XZiS0oI5cln6aNL3M1YuVbGZL2YHIMThbVJRwQ==",
+      "type": "package",
+      "path": "doxygen/1.8.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doxygen.1.8.14.nupkg.sha512",
+        "doxygen.nuspec",
+        "tools/doxygen.exe",
+        "tools/libclang.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Doxygen >= 1.8.14"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Projeto_C\\Projeto_Final\\Projeto_Final.csproj",
+      "projectName": "Projeto_Final",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Projeto_C\\Projeto_Final\\Projeto_Final.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Projeto_C\\Projeto_Final\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Doxygen": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.8.14, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
